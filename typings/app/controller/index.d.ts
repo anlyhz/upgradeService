@@ -4,12 +4,16 @@
 import 'egg';
 import ExportHome from '../../../app/controller/home';
 import ExportLogin from '../../../app/controller/login';
-import ExportNews from '../../../app/controller/news';
+import ExportServiceInfo from '../../../app/controller/serviceInfo';
+import ExportServiceType from '../../../app/controller/serviceType';
+import ExportServiceUpgrade from '../../../app/controller/serviceUpgrade';
 
 declare module 'egg' {
   interface IController {
     home: ExportHome;
     login: ExportLogin;
-    news: ExportNews;
+    serviceInfo: ExportServiceInfo;
+    serviceType: ExportServiceType;
+    serviceUpgrade: ExportServiceUpgrade;
   }
 }

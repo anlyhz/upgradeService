@@ -31,3 +31,10 @@ $ npm start
 
 - Node.js 8.x
 - Typescript 2.8+
+
+### expect
+
+- 检查是否安装tcl,expect
+- 如果没有安装,使用yum安装:
+- yum install -y tcl
+- yum install -y expect
